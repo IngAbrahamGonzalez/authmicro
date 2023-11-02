@@ -37,6 +37,7 @@ Revisando su ID en el token JWT
 13.
 ¿Cómo abstraemos la gestión de errores del framework de red?
 Con un framework específico para gestión de errores
+incorrecta
 REPASAR CLASE
 14.
 ¿Cómo abstraemos el lenguaje específico de cada base de datos de nuestros componentes?
@@ -62,6 +63,7 @@ Con una función constructora de conectores
 21.
 Al separar un componente de la API, ¿qué pasa con la arquitectura del nuevo microservicio?
 Cambia ligeramente
+incorrecta
 22.
 ¿PM2 es una herramienta que nos sirve para?
 
@@ -81,10 +83,12 @@ Una base de datos en memoria
 A la hora de guardar un dato en Redis, además del ID y la información, ¿Qué más podemos definir?
 
 El tiempo que tarda en insertarse en base de datos
+incorrecta
 REPASAR CLASE
 27.
 ¿En qué capa conectamos nuestros servicios al caché?
 En la capa de datos
+incorrecta
 REPASAR CLASE
 28.
 ¿Cuál es la mejor forma de desplegar microservicios de NodeJS en una máquina virtual?
