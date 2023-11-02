@@ -1,0 +1,94 @@
+.
+¿Qué beneficios nos da planificar nuestra arquitectura antes de programar?
+Un código más mantenible y reutilizable
+2.
+A la hora de comenzar un proyecto, ¿conviene planificar las estructuras de datos?
+Sí. Las estructuras y cómo se almacenan
+3.
+Pensando en un backend orientado a microservicios, ¿cómo debería estructurarse el código compartido?
+Una carpeta por cada capa lógica en la raíz
+4.
+¿Dónde debería estar el código de acceso a base de datos?
+En un archivo independiente compartido
+5.
+¿Para qué sirve la inyección de dependencias en nuestro controlador?
+Para configurar dinámicamente su comportamiento
+6.
+¿Por qué es importante documentar bien la API?
+Todas son correctas
+7.
+¿Qué es un token JWT?
+Una forma de autenticar peticiones
+8.
+¿Dónde deberían almacenarse los datos de acceso de un usuario?
+En una entidad independiente en la base de datos
+9.
+¿Qué hay que devolverle al usuario al hacer login correctamente?
+Un token JWT
+10.
+Cuando almacenamos contraseñas, ¿cómo es la mejor forma de guardarla?
+Convertida en un hash cifrado criptográficamente
+11.
+¿Cómo se puede gestionar el acceso a determinados recursos?
+Con un sistema de roles
+12.
+¿Cómo sabemos quién es el usuario que quiere hacer una acción determinada?
+Revisando su ID en el token JWT
+13.
+¿Cómo abstraemos la gestión de errores del framework de red?
+Con un framework específico para gestión de errores
+REPASAR CLASE
+14.
+¿Cómo abstraemos el lenguaje específico de cada base de datos de nuestros componentes?
+Creando una abstracción de la base de datos en forma de funciones
+15.
+¿Cómo decidimos si hacer insert o update en MySQL en nuestra función upsert?
+Dependiendo de si hay ID o no
+16.
+¿Cómo creamos relaciones múltiples (n:n) en MySQL?
+Creando una tabla intermedia
+17.
+A la hora de añadir una nueva entidad a un servicio existente, ¿dónde añadiremos el código?
+En el servicio, dentro de la carpeta components
+18.
+¿Cuál es el principal problema de los microservicios?
+Aumenta la complejidad del despliegue
+19.
+A la hora de separar a un microservicio, ¿hay que duplicar el código?
+No hay que duplicarlo, sino referenciarlo
+20.
+Cuando creamos conectores con microservicios HTTP, ¿cuál es la mejor forma?
+Con una función constructora de conectores
+21.
+Al separar un componente de la API, ¿qué pasa con la arquitectura del nuevo microservicio?
+Cambia ligeramente
+22.
+¿PM2 es una herramienta que nos sirve para?
+
+Gestionar microservicios de NodeJS en producción
+23.
+¿Para desplegar en Zeit Now, creamos un archivo llamado?
+
+now.json
+24.
+¿Cómo definimos variables de entorno en nuestros despliegues en Now?
+Con la propiedad "env" en el now.json
+25.
+¿En esencia, Redis es?
+
+Una base de datos en memoria
+26.
+A la hora de guardar un dato en Redis, además del ID y la información, ¿Qué más podemos definir?
+
+El tiempo que tarda en insertarse en base de datos
+REPASAR CLASE
+27.
+¿En qué capa conectamos nuestros servicios al caché?
+En la capa de datos
+REPASAR CLASE
+28.
+¿Cuál es la mejor forma de desplegar microservicios de NodeJS en una máquina virtual?
+Usando PM2
+29.
+¿Cómo se recomienda exponer los microservicios en una máquina virtual?
+Creando proxys inversos en Nginx
